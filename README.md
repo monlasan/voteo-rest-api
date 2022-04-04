@@ -1,4 +1,4 @@
-# REST API for Voting App
+# REST API for VOTEO (Flutter Voting App)
 
 NodeJS/ExpressJS - MongoDB/Mongoose - JWT
 
