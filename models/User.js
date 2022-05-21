@@ -18,7 +18,8 @@ const UserSchema = new mongoose.Schema({
     max: 1024,
     min: 6,
   },
-  date: {
+  events: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Event' }],
+  register_date: {
     type: Date,
     default: Date.now,
   },
